@@ -28,7 +28,7 @@ table_02
 
 *Your answer:*
 
-**2. After `table_02 |> filter(time_point == "early")`, how many rows? What does each row represent now?**
+**2. After `table_02 |> filter(time_point == "baseline")`, how many rows? What does each row represent now?**
 
 *Your answer:*
 
@@ -45,7 +45,7 @@ Each step adds one verb on top of the previous pipeline. Run after each step.
 ```
 
 ```{r}
-# step 2: filter to the early time point
+# step 2: filter to the baseline time point
 ```
 
 ```{r}

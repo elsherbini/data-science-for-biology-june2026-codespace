@@ -89,7 +89,7 @@ Produce a polished version of the final boxplot:
 - faceted by `time_point`
 - colored by `arm`
 - axes and legend labeled
-- panels in chronological order (early, mid, late)
+- panels in chronological order (baseline, week_1, week_7)
 - a legible theme
 
 ```{r}
