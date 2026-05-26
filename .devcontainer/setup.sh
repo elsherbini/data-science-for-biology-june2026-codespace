@@ -13,15 +13,16 @@ npm install -g @anthropic-ai/claude-code
 # maintainer's published install instructions at pi.dev.
 npm install -g --ignore-scripts @earendil-works/pi-coding-agent
 
-# Default Pi to OpenRouter + Claude Sonnet 4 so participants don't have to
-# /login or pick a provider on first launch. Pi writes back to this file
-# when the user switches providers/models via Ctrl+L or /model, so anything
-# participants change persists across the session.
+# Default Pi to OpenRouter + DeepSeek V4 Flash so participants don't have to
+# /login or pick a provider on first launch, and so the cheap default model
+# is in place from day one. Pi writes back to this file when the user
+# switches providers/models via Ctrl+L or /model, so anything participants
+# change persists across the session.
 mkdir -p "$HOME/.pi/agent"
 cat > "$HOME/.pi/agent/settings.json" <<'JSON'
 {
   "defaultProvider": "openrouter",
-  "defaultModel": "anthropic/claude-sonnet-4"
+  "defaultModel": "deepseek/deepseek-v4-flash"
 }
 JSON
 
