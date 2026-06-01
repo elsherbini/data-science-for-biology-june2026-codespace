@@ -22,6 +22,6 @@ ggplot(penguins, aes(x = flipper_length_mm, y = body_mass_g, color = species)) +
   )
 ```
 
-Curious to make this your own? Open the terminal and ask Claude Code to help —
+Curious to make this your own? Open the terminal and ask Pi to help —
 for example, "Can you change the plot to show bill length instead of flipper
 length?" Experimenting is the best way to learn.

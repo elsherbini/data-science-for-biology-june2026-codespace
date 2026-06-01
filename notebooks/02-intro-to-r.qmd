@@ -1,0 +1,61 @@
+---
+title: "Module 2 — Intro to R and Quarto"
+format: html
+editor: source
+execute:
+  warning: false
+  message: false
+---
+
+This is your workspace for the Module 2 worksheet. The full instructions live
+on the lesson page — keep it open alongside this notebook. Here you just fill
+in the empty code chunks under each exercise and press **Run Cell** to see what
+happens.
+
+Always load the packages you need in a setup chunk at the top:
+
+```{r setup}
+library(tidyverse)
+```
+
+## Exercise 1
+
+```{r}
+# your code here
+```
+
+## Challenge Exercise 1
+
+```{r}
+# your code here
+```
+
+## Exercise 2
+
+```{r}
+# your code here
+```
+
+## Challenge Exercise 2
+
+```{r}
+# your code here
+```
+
+## Exercise 3
+
+```{r}
+# your code here
+```
+
+## Challenge Exercise 3
+
+```{r}
+# your code here
+```
+
+## Pi mini-task
+
+Pick one exercise above that confused you. Ask Pi to explain its solution, then
+push back: *"why did you use X instead of Y?"* Notice when Pi sounds confident
+versus when it is guessing.

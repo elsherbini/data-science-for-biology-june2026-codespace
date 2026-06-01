@@ -7,7 +7,7 @@ execute:
   message: false
 ---
 
-> *Your mode for this exercise.* Group A: **agentic** — describe each step to Claude Code and let it write the code. Group B: **manual** — write each step yourself. A chat LLM may answer conceptual questions but should not edit this notebook or run commands. Exercise 2 flips the modes.
+> *Your mode for this exercise.* Group A: **agentic** — describe each step to Pi and let it write the code. Group B: **manual** — write each step yourself. A chat LLM may answer conceptual questions but should not edit this notebook or run commands. Exercise 2 flips the modes.
 
 ```{r setup}
 library(tidyverse)
