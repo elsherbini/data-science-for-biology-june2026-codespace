@@ -13,7 +13,14 @@
         "REditorSupport.r",
         "quarto.quarto",
         "anthropic.claude-code"
-      ]
+      ],
+      // Make saving work one click: typing a message and clicking Commit
+      // stages everything and pushes to GitHub, with no separate Sync step.
+      "settings": {
+        "git.enableSmartCommit": true,
+        "git.postCommitCommand": "push",
+        "git.confirmSync": false
+      }
     }
   },
   // The participant's OpenRouter API key arrives as the Codespaces secret
